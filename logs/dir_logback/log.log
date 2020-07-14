@@ -1,0 +1,10 @@
+2020-07-14 00:19:03.938 [main] ERROR cn.Main - error
+2020-07-14 00:19:03.941 [main] WARN  cn.Main - warn
+2020-07-14 00:19:03.942 [main] INFO  cn.Main - info
+2020-07-14 00:19:03.942 [main] DEBUG cn.Main - debug
+2020-07-14 00:19:03.949 [main] INFO  cn.Main - this is a commons log4j start
+2020-07-14 00:19:03.949 [main] ERROR cn.Main - error
+2020-07-14 00:19:03.949 [main] WARN  cn.Main - warn
+2020-07-14 00:19:03.950 [main] INFO  cn.Main - info
+2020-07-14 00:19:03.950 [main] DEBUG cn.Main - debug
+2020-07-14 00:19:03.950 [main] INFO  cn.Main - this is a commons log4j end!

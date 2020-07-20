@@ -159,11 +159,11 @@ slf4j的直接实现是logback，如果要使用log4j实现需要引入slf4j-log
 
 # 日志实现替换
 
-![image-20200713183620955](C:\Users\肖辉\AppData\Roaming\Typora\typora-user-images\image-20200713183620955.png)
+![image-20200713183620955](image/image-20200713183620955.png)
 
 切换日志实现（slf4j-*）
 
-![concrete-bindings](C:\Users\肖辉\Pictures\concrete-bindings.png)
+![concrete-bindings](image/concrete-bindings.png)
 
 # 统一日志框架
 
@@ -173,5 +173,5 @@ slf4j的直接实现是logback，如果要使用log4j实现需要引入slf4j-log
 
 使用jcl-over-slf4j.jar 替换common-logging 日志接口，使用log4j-over-slf4j jul-to-slf4j替换日志实现
 
-![legacy](image\legacy.png)
+![legacy](image/legacy.png)
 

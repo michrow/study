@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<!--1、基本配置-->
+	<!--指定pom.xml符合那个版本的描述符，mvn2,mvn3只能是4-->
+	<modelVersion>4.0.0</modelVersion>
+
+	<!--<groupId,artifactId,version>  唯一jar -->
+	<groupId>org.maven.pom</groupId>
+	<artifactId>stu</artifactId>
+	<version>1.0-RELEASE</version>
+	<!--项目类型，即项目打包后的输出，默认jar,其他常见：pom,jar,war等-->
+	<packaging>pom</packaging>
+
+
+	<modules>
+		<module>stu_sub1</module>
+	</modules>
+
+	<properties>
+		<jdk.version>1.8</jdk.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<lombok.version>1.16.20</lombok.version>
+		<commons-lang3.version>3.3.2</commons-lang3.version>
+	</properties>
+
+
+	<dependencyManagement>
+		<dependencies>
+
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>${lombok.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-lang3</artifactId>
+				<version>${commons-lang3.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+</project>
